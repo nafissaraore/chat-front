@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+baseURL: 'https://p6-groupeb.com/nafinode/chat_platform/api',
 });
 
 // Intercepteur pour ajouter le token et gérer les headers
